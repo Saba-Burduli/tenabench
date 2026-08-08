@@ -1,5 +1,4 @@
-import { MockGitHubClient } from '../../packages/github-client/src/mock';
-import { createLargeRepoContributors } from '../fixtures/large-repo';
+
 
 /**
  * Hidden test: Timezone-sensitive scoring.

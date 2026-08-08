@@ -1,6 +1,4 @@
-import { MockGitHubClient } from '../../packages/github-client/src/mock';
-import { AppDatabase } from '../../packages/database/src/connection';
-import { Contributor, Repository, Issue, Release } from '@forgebench/shared';
+import { Contributor, Repository } from '@forgebench/shared';
 
 /**
  * Generate a large contributor list for pagination testing.

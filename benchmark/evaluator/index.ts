@@ -3,8 +3,7 @@ import {
   TaskResult,
   BenchmarkResult,
   MetricName,
-  TaskCategory,
-} from './config';
+} from '../config';
 
 /**
  * Evaluator: runs validation for a completed benchmark task and produces a score.

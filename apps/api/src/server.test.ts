@@ -1,6 +1,5 @@
 import request from 'supertest';
 import { app, db } from '../src/server';
-import { MockGitHubClient } from '@forgebench/github-client';
 import { Repository, Contributor, Issue, Release } from '@forgebench/shared';
 
 // Note: In a real test we'd mock the GitHub client.
