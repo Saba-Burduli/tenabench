@@ -1,0 +1,12 @@
+{
+  "name": "@forgebench/benchmark",
+  "version": "1.0.0",
+  "private": true,
+  "main": "runner.ts",
+  "dependencies": {
+    "@forgebench/shared": "1.0.0",
+    "@forgebench/database": "1.0.0",
+    "@forgebench/repository-scoring": "1.0.0",
+    "@forgebench/github-client": "1.0.0"
+  }
+}

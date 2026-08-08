@@ -1,0 +1,16 @@
+{
+  "name": "@forgebench/api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/server.ts",
+  "dependencies": {
+    "@forgebench/shared": "1.0.0",
+    "@forgebench/github-client": "1.0.0",
+    "@forgebench/database": "1.0.0",
+    "@forgebench/repository-scoring": "1.0.0",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}
