@@ -5,4 +5,5 @@ module.exports = {
   roots: ['<rootDir>/apps', '<rootDir>/packages'],
   testMatch: ['**/*.test.ts'],
   modulePathIgnorePatterns: ['<rootDir>/dist'],
+  globalSetup: '<rootDir>/jest.setup.js',
 };

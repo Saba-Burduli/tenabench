@@ -6,6 +6,6 @@
   "types": "src/index.ts",
   "dependencies": {
     "@forgebench/shared": "1.0.0",
-    "better-sqlite3": "^11.0.0"
+    "sql.js": "^1.12.0"
   }
 }
