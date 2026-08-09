@@ -1,7 +1,7 @@
 import { Router, Request, Response } from 'express';
-import { AppDatabase } from '@forgebench/database';
-import { GitHubClient } from '@forgebench/github-client';
-import { calculateHealthScore } from '@forgebench/repository-scoring';
+import { AppDatabase } from '@tenabench/database';
+import { GitHubClient } from '@tenabench/github-client';
+import { calculateHealthScore } from '@tenabench/repository-scoring';
 
 /**
  * Create repository routes bound to a database instance.

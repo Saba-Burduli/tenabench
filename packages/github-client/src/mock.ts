@@ -3,7 +3,7 @@ import {
   Contributor,
   Issue,
   Release,
-} from '@forgebench/shared';
+} from '@tenabench/shared';
 
 /**
  * Mock GitHub client for testing and benchmark scenarios.

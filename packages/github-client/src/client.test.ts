@@ -1,5 +1,5 @@
 import { MockGitHubClient } from '../src/mock';
-import { Contributor, Issue, Release, Repository } from '@forgebench/shared';
+import { Contributor, Issue, Release, Repository } from '@tenabench/shared';
 
 // --- Fixtures ---
 

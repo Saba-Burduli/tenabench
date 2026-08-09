@@ -1,13 +1,13 @@
 {
-  "name": "@forgebench/api",
+  "name": "@tenabench/api",
   "version": "1.0.0",
   "private": true,
   "main": "src/server.ts",
   "dependencies": {
-    "@forgebench/shared": "1.0.0",
-    "@forgebench/github-client": "1.0.0",
-    "@forgebench/database": "1.0.0",
-    "@forgebench/repository-scoring": "1.0.0",
+    "@tenabench/shared": "1.0.0",
+    "@tenabench/github-client": "1.0.0",
+    "@tenabench/database": "1.0.0",
+    "@tenabench/repository-scoring": "1.0.0",
     "express": "^4.21.0"
   },
   "devDependencies": {

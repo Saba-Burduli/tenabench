@@ -2,7 +2,7 @@
 
 ## Context
 
-ForgeBench needs a benchmark application complex enough to test real engineering workflows but simple enough to run locally without external services.
+TenaBench needs a benchmark application complex enough to test real engineering workflows but simple enough to run locally without external services.
 
 ## Decision
 

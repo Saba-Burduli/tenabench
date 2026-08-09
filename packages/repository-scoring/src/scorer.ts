@@ -1,4 +1,4 @@
-import { HealthScore, ScoreDimension, Repository, Contributor, Issue, Release } from '@forgebench/shared';
+import { HealthScore, ScoreDimension, Repository, Contributor, Issue, Release } from '@tenabench/shared';
 
 export interface ScoringInput {
   repository: Repository;

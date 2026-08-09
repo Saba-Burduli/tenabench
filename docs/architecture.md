@@ -1,6 +1,6 @@
 # Architecture
 
-OpenSource Radar is a modular monolith with a clear separation of concerns.
+TenaBench contains OpenSource Radar — a modular monolith with a clear separation of concerns.
 
 ## High-Level Architecture
 

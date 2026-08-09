@@ -1,5 +1,5 @@
 import express from 'express';
-import { AppDatabase } from '@forgebench/database';
+import { AppDatabase } from '@tenabench/database';
 import { repoRoutes } from './routes/repos';
 
 const app = express();

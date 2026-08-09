@@ -1,6 +1,6 @@
 import request from 'supertest';
 import { app, db } from '../src/server';
-import { Repository, Contributor, Issue, Release } from '@forgebench/shared';
+import { Repository, Contributor, Issue, Release } from '@tenabench/shared';
 
 // Note: In a real test we'd mock the GitHub client.
 // For now, test the database and scoring integration directly.
@@ -71,7 +71,7 @@ describe('repo routes (with mock data)', () => {
     const issues = db.getIssues('mock-1');
     const releases = db.getReleases('mock-1');
 
-    const { calculateHealthScore } = require('@forgebench/repository-scoring');
+    const { calculateHealthScore } = require('@tenabench/repository-scoring');
     const score = calculateHealthScore({ repository: repo, contributors, issues, releases });
 
     expect(score.overall).toBeGreaterThanOrEqual(0);

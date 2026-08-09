@@ -1,4 +1,4 @@
-import { Contributor, Repository } from '@forgebench/shared';
+import { Contributor, Repository } from '@tenabench/shared';
 
 /**
  * Generate a large contributor list for pagination testing.

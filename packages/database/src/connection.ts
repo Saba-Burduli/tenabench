@@ -1,5 +1,5 @@
 import { SCHEMA_SQL } from './schema';
-import { Repository, Contributor, Issue, Release } from '@forgebench/shared';
+import { Repository, Contributor, Issue, Release } from '@tenabench/shared';
 
 function getSQL(): any {
   if (global.SQL) return global.SQL;

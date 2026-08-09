@@ -2,7 +2,7 @@
 
 ## Philosophy
 
-ForgeBench tests whether an AI agent can behave like a capable software engineer inside a real development environment. It does not test simple prompt-response correctness.
+TenaBench tests whether an AI agent can behave like a capable software engineer inside a real development environment. It does not test simple prompt-response correctness.
 
 ## Task Lifecycle
 

@@ -1,4 +1,4 @@
-import { Contributor, Issue, Release, Repository } from '@forgebench/shared';
+import { Contributor, Issue, Release, Repository } from '@tenabench/shared';
 
 /** Create a contributor with the given login and contribution count */
 export function createContributor(login: string, contributions: number): Contributor {

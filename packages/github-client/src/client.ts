@@ -3,7 +3,7 @@ import {
   Contributor,
   Issue,
   Release,
-} from '@forgebench/shared';
+} from '@tenabench/shared';
 
 const PER_PAGE = 30;
 

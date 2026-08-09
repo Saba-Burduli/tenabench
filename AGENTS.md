@@ -1,24 +1,26 @@
-# ForgeBench — Agent Instructions
+# TenaBench — Agent Instructions
 
-This is the ForgeBench repository, containing the OpenSource Radar application and the benchmark system.
+This is the TenaBench repository, containing the OpenSource Radar application and the benchmark system.
 
 ## Project Structure
 
 - `apps/api/` — Express API server for OpenSource Radar
 - `packages/github-client/` — GitHub API client with rate limit awareness
-- `packages/database/` — SQLite database layer
+- `packages/database/` — SQLite database layer (sql.js)
 - `packages/repository-scoring/` — Repository health scoring engine
 - `packages/shared/` — Shared TypeScript types
+- `packages/testing/` — Test fixture helpers
 - `benchmark/` — Benchmark task definitions, fixtures, and evaluator
 
 ## Commands
 
 - `npm install` — Install all dependencies (monorepo with workspaces)
-- `npm test` — Run all tests
-- `npm run lint` — Run ESLint
-- `npm run build` — TypeScript compilation
+- `npm test` — Run all tests (26 tests across 4 suites)
+- `npm run lint` — Run ESLint (v9 flat config)
+- `npm run build` — TypeScript compilation (outputs to `dist/`)
 - `npm start` — Start the API server (port 3000)
 - `npm run benchmark` — Run the benchmark suite
+- `npm run benchmark -- task-id` — Run a specific task
 
 ## Conventions
 
@@ -39,6 +41,7 @@ After making changes:
 
 ## Notes
 
-- The database uses SQLite (in-memory by default for testing)
+- The database uses SQLite (in-memory by default for testing via sql.js)
 - GitHub API calls require a `GITHUB_TOKEN` environment variable for the live client
 - The mock client (`MockGitHubClient`) is available for testing without API access
+- All workspace packages use `@tenabench/*` scoped names

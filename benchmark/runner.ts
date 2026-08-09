@@ -28,7 +28,7 @@ async function run(args: string[]) {
     process.exit(1);
   }
 
-  console.log(`\nForgeBench — Running ${tasks.length} task(s) for model: ${modelname}\n`);
+  console.log(`\nTenaBench — Running ${tasks.length} task(s) for model: ${modelname}\n`);
 
   const evaluator = new Evaluator(modelname);
 
